@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "calendar": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["${workspaceFolder}/server.py"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
